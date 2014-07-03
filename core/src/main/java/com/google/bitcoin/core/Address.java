@@ -47,6 +47,11 @@ public class Address extends VersionedChecksummedBytes {
      *
      * <pre>new Address(NetworkParameters.prodNet(), NetworkParameters.getAddressHeader(), Hex.decode("4a22c3c4cbb31e4d03b15550636762bda0baf85a"));</pre>
      */
+	 
+	 /**
+		This is a test!
+	*/
+	
     public Address(NetworkParameters params, int version, byte[] hash160) throws WrongNetworkException {
         super(version, hash160);
         checkNotNull(params);
